@@ -10,8 +10,7 @@ int main(void)
 
 	char letter;
 
-	print_alphabet("Lowercase letter:
-			\n");
+	print_alphabet("Lowercase letters : \n");
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar("%c " letter);
