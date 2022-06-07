@@ -7,12 +7,14 @@
  * Return: Always: 0.
  */
 int main(void)
-{
-	print_alphabet();
+
 	char letter;
 
+	print_alphabet("Lowercase letter:
+			\n");
+
 	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+		putchar("%c " letter);
 
 	putchar('\n');
 
