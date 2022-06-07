@@ -14,10 +14,10 @@ void print_alphabet(void)
 	for(a= 'a'; a <= 'z'; a++)
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		putchar('a');
-		putchar(alphabet);
+		_putchar('a');
+		_putchar(alphabet);
 	}
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 }
