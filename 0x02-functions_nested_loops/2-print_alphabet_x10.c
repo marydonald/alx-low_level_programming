@@ -2,11 +2,22 @@
 
 /**
  * add - a function that adds two integers and returns the result
- * @one: first number input
- * @two: second number input
- * Return: one + two
+ * 
+ * Return: x10 a-z
  */
-int add(int one, int two)
+void print_alphabet_x10(void)
 {
-	return (one + two);
+	char alpha, co;
+
+	co = 0;
+
+	while (co < 10)
+	{
+		for (alpha = 'a'; alpha <= 'z'; alpha++)
+		{
+			_putchar (alpha);
+		}
+		co++;
+		_putchar('\n');
+	}
 }
