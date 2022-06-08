@@ -3,9 +3,9 @@
 /**
  * jack_bauer - function that prints every minute of the day, 24 hour clock
  * h = hour, m = minutes
- * / 10 allows second digit to rotate
+ * / 10 allowssecond digit to rotate
  * for loop breaks before passing 24:00
- * Return: 24 hour clock line by line
+ * Return: 24 hour clockline by line
  */
 void jack_bauer(void)
 {
@@ -13,9 +13,8 @@ void jack_bauer(void)
 
 	for (h = 0; h < 24; h++)
 	{
-
 		for (m = 0; m < 60; m++)
-		{	
+		{
 			_putchar((h / 10) + '0');
 			_putchar((h % 10) + '0');
 			_putchar(':');
