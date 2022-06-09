@@ -15,4 +15,4 @@ void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
 
-enif /* MAIN_H */
+#enif /* MAIN_H */
