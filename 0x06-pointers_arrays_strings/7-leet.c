@@ -22,6 +22,5 @@ char *leet(char *str)
 
 		indx1++;
 	}
-
 	return (str);
 }
